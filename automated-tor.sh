@@ -2,7 +2,8 @@
 # inspired of Parrot On-Debian Installer Script
 author="CyBerNetX <cybernetx@cybermazout.net>"
 version="0.1"
-#curl -s https://cybermazout.net/nextcloud/s/LtZGz6RCjkTMzNZ/download/automated-tor.sh |sudo bash -s --  -d
+license="GPL v3"
+#curl -s https://raw.githubusercontent.com/CyBerNetX/bridge-tor-install/main/automated-tor.sh |sudo bash -s --  -d
 # 
 # cat automated-tor.sh | bash -s -- -h
 #
@@ -22,6 +23,7 @@ function help(){
   echo ""
   echo "Author : $author "
   echo "Version : $version "
+  echo "License : $license "
   echo ""
   usage 
 }
